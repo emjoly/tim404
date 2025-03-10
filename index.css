@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 20px; /* row-gap column gap */
+}
+.box{
+    display: flex;
+    flex-grow: 1;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+}
