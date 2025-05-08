@@ -36,8 +36,11 @@ header picture img {
 }
 
 .expo-details {
+  display: flex;
   margin-top: 1.5rem;
-  margin-left: 5%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 12.5%;
 }
 
 .expo-details p {
@@ -53,7 +56,7 @@ header picture img {
 #liste-eleves {
   display: flex;
   flex-direction: column;
-  padding: 0 2rem;
+  padding: 0 4rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -62,7 +65,7 @@ header picture img {
   text-align: center;
   color: #9792df;
   margin-top: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* Student card */
@@ -206,6 +209,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+  .expo-details {
+    align-items: flex-start;
   }
   #liste-eleves {
     flex-direction: row;
