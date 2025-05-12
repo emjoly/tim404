@@ -173,14 +173,14 @@ footer {
   margin: 0 auto;
 }
 
+.footer-section:nth-of-type(3) p {
+  margin: 0.5rem;
+}
+
 .tim,
 .m9 {
   max-width: 150px;
   margin: 0 auto 1rem;
-}
-
-.m9 {
-  max-width: 50px;
 }
 
 .social-links {
@@ -192,9 +192,23 @@ footer {
   align-items: center;
 }
 
-.social-links a {
+.footer-section a {
   color: #ccc;
   text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.site-college {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.site-college svg {
+  margin-right: 0.5rem;
 }
 
 .credits {
@@ -262,6 +276,11 @@ footer {
 
   .social-links {
     align-items: flex-start;
+  }
+
+  .site-college {
+    justify-content: flex-start;
+    margin: 0.5rem;
   }
 }
 
